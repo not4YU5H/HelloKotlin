@@ -1,6 +1,8 @@
-package com.example.hellokotlin.data
+package com.example.hellokotlin.repository
 
 import androidx.lifecycle.LiveData
+import com.example.hellokotlin.data.UserDao
+import com.example.hellokotlin.model.User
 
 class UserRepository(private val userDao: UserDao) {
 

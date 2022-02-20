@@ -1,4 +1,4 @@
-package com.example.hellokotlin.data
+package com.example.hellokotlin.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

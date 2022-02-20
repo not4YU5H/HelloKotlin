@@ -8,13 +8,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.get
 import androidx.navigation.fragment.findNavController
 import com.example.hellokotlin.R
-import com.example.hellokotlin.data.User
-import com.example.hellokotlin.data.UserViewModel
+import com.example.hellokotlin.model.User
+import com.example.hellokotlin.viewmodel.UserViewModel
 import kotlinx.android.synthetic.main.fragment_add.*
 import kotlinx.android.synthetic.main.fragment_add.view.*
 
